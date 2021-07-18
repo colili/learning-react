@@ -18,7 +18,7 @@ jobs:
     - name: Deploy to Aliyun server
       uses: easingthemes/ssh-deploy@v2.2.11
       env:
-        SSH_PRIVATE_KEY: "-----BEGIN RSA PRIVATE KEY-----
+        SSH_PRIVATE_KEY: '-----BEGIN RSA PRIVATE KEY-----
 MIIJJwIBAAKCAgEA4u97HE8PRMD7G19WNsHfhsS1HSsuVrxNr0dx2G8uexpPndrZ
 1gcafuAilsDldhUA3/r6voo573+eQJKNtkTzOWAD/EJMtSjdzjTW/oZg16pLwaqn
 UyggHDaCl5IO8NkF460hdvVm6/aDqacIbGAqKS2s87HTlGaaldnvTBSatGfl/UFB
@@ -68,7 +68,7 @@ EBfW+ubzJKU66zDH95NtmNH5U58DWTB20egutPBXlqoY8fc86e4cn1nuE84P1WlO
 MwN8LkrdBqTDKwPYjpolVH8OnIXFcdruuOIunenWebymm8ehXE3aqdyJvov8ptVo
 cD4TZ+GRlZ+VQMy5y0HZtf9RzHb66/pirvmRJniQRT+vkh4gDYASa7SWZJXVILHw
 OlMyRwMO3R2tnuF8RQU7Of2fl6N/s4rofk76A5Ok0vwA1bZDxx19ZB8Lfg==
------END RSA PRIVATE KEY-----"
+-----END RSA PRIVATE KEY-----'
         ARGS: "-rltgoDzvO --delete"
         SOURCE: "build/"
         REMOTE_HOST: 47.97.61.227
