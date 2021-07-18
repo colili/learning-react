@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+/* import React, { useState, useEffect } from "react";
 
 function sleep(timeout) {
   return new Promise((resolve, reject) => {
@@ -39,3 +39,4 @@ export default function CustomizeHook() {
     </div>
   );
 }
+ */

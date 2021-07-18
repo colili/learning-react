@@ -24,7 +24,7 @@ ReactDOM.render(
     <hr />
     {/* <EffectExample/> */}
     <hr />
-    <CustomizeHook />
+    {/* <CustomizeHook /> */}
   </React.StrictMode>,
   document.getElementById("root")
 );
