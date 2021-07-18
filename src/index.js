@@ -1,14 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
-import StateExample from "./StateExample";
+import CallbackExample from "./CallbackExample";
 import ContextExample from "./ContextExample";
+import CustomizeHook from "./CustomizeHook";
+import MemoExample from "./MemoExample";
 import ReducerExample from "./ReducerExample";
 import RefExample from "./RefExample";
-import MemoExample from "./MemoExample";
-import CallbackExample from "./CallbackExample";
-import EffectExample from "./EffectExample";
-import CustomizeHook from "./CustomizeHook";
+import StateExample from "./StateExample";
 
 ReactDOM.render(
   <React.StrictMode>
