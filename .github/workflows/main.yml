@@ -16,7 +16,7 @@ jobs:
     - run: npm run build --if-present
 #    - run: npm test
     - name: Deploy to Aliyun server
-      uses: easingthemes/ssh-deploy@v2.1.5
+      uses: easingthemes/ssh-deploy@v2.2.11
       env:
         SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
         ARGS: "-rltgoDzvO --delete"
