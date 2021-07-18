@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import CallbackExample from "./CallbackExample";
 import ContextExample from "./ContextExample";
-import CustomizeHook from "./CustomizeHook";
 import MemoExample from "./MemoExample";
 import ReducerExample from "./ReducerExample";
 import RefExample from "./RefExample";
